@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="eltec-0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="eltec-0.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HUN18720" xml:lang="hu">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Az arany ember : ELTeC edition</title>
+            <author>Jókai, Mór (1825-1904)</author>
+            <respStmt>
+               <resp>enkódolta</resp>
+               <name>Mau Zsófia Ábrahám</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">100000</measure>
+         </extent>
+         <publicationStmt>
+            <p><date>2019-09-23</date></p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Az arany ember / Jókai Mór</title>
+               <ref target="http://mek.oszk.hu/00600/00688/html/">mek.oszk.hu</ref>
+            </bibl>
+            <bibl type="digitalSource">
+               <publisher>Interpopulart</publisher><pubPlace>Szentendre</pubPlace><date>1994</date>               
+            </bibl>
+            <bibl type="firstEdition">
+               <publisher>Athenaeum</publisher><pubPlace>Budapest</pubPlace><date>1872</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-0">
+         <p/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident=""/>
+         </langUsage>
+         <textDesc>
+            <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+            <size xmlns="http://distantreading.net/eltec/ns" key="long"/>
+            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
+            <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T2"/>
+         </textDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-09-23">File created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Text will go there</p>
+      </body>
+   </text>
+</TEI>
